@@ -13,3 +13,11 @@ else if(CompChoice==2){
 }else{
     console.log("Scissors");
 }
+
+function getHumanChoice(){
+    let HumanChoice = prompt("Rock! Paper! Scissors!");
+    return HumanChoice;
+}
+
+let HumChoice = getHumanChoice();
+console.log(HumChoice);
